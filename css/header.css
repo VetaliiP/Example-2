@@ -1,0 +1,142 @@
+header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    width: auto;
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid rgba(214, 214, 214, 1);
+    
+    padding-left: 14%;
+    padding-right: 14%;
+}
+.nav-logo{
+    width: 80px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 80px;
+    background-image: url('/img/Logo-Alivio.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.nav-list{
+    width: 560px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-left: 10%;
+    margin-right: 15%;
+}
+.nav-list div a{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #292929;
+    transition: 0.3s;
+}
+.nav-list div a:hover{
+    color: #01996D;
+    transition: 0.3s;
+}
+.nav-auth{
+    width: 280px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-auth a, .nav-auth div{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+.nav-sign{
+    width: 92px;
+}
+.nav-btn{
+    width: 183px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgba(1, 153, 109, 1);
+}
+.nav-btn p{
+    color: #FFFFFF;
+}
+.header-bg{
+    width: 100%;
+    flex-grow: 1;
+    position: relative;
+
+    background-image: url('/img/BG-Alivio.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.headline{
+    width: 440px;
+    height: 384px;
+    position: relative;
+    top:18%;
+    left:14%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:space-between;
+}
+.headline-title{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 74px;
+    color: #01996D;
+}
+.headline-text{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    color: #484848;
+}
+.headline-btn{
+    width: 227px;
+    height: 65px;
+    border-radius: 5px;
+    background-color: rgba(1, 153, 109, 1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headline-btn p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+}

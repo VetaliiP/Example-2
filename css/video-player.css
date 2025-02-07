@@ -1,0 +1,84 @@
+#VIDEO-PLAYER{
+    width: 100%;
+    height: 922px;
+
+    background-color: rgba(36, 88, 82, 1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 51px;
+}
+.container-player{
+    width: 1500px;
+    height: 517px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.container-left{
+    width: 580px;
+    height: 100%;
+
+    display: flex;    
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+}
+.container-title{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 79px;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+
+    margin-top: 81px;
+}
+.container-text{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 39px;
+
+    color: #FFFFFF;
+
+    margin-top: 33px;
+    margin-bottom: 57px;
+}
+.container-btn {
+    width: 240px;
+    height: 65px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(1, 153, 109, 1);
+
+    cursor: pointer;
+}
+.container-btn p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+}
+.container-right{
+    width: 896px;
+    height: 100%;
+ 
+    background-image: url('/img/Video.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
