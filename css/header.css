@@ -80,6 +80,8 @@ nav{
     align-items: center;
     border-radius: 5px;
     background-color: rgba(1, 153, 109, 1);
+
+    cursor: pointer;
 }
 .nav-btn p{
     color: #FFFFFF;
